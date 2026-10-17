@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branchwise</title>
+  <meta name="description" content="Branchwise: record, transcribe and preserve family stories on iPhone and iPad.">
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --text: #1f2a24;
+      --muted: #5b665f;
+      --accent: #2f6b4f;
+      --card: #ffffff;
+      --border: #e2ddd2;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141a17;
+        --text: #e8ece9;
+        --muted: #a3ada7;
+        --accent: #7cc4a0;
+        --card: #1c2420;
+        --border: #2c3631;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 16px 48px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0 0 4px;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      color: var(--accent);
+      font-weight: 600;
+      margin: 0 0 32px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 12px;
+    }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .status {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      padding: 2px 12px;
+      margin-bottom: 24px;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 40px;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Branchwise&trade;</h1>
+    <p class="tagline">Record family stories before they're lost.</p>
+    <span class="status">In development for iPhone and iPad</span>
+
+    <div class="card">
+      <h2>What it does</h2>
+      <ul>
+        <li>Guided interview prompts for talking with relatives</li>
+        <li>On-device transcription, so recordings stay on your device</li>
+        <li>Tag everyone mentioned in a story</li>
+        <li>Save stories to your family tree on FamilySearch</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Privacy</h2>
+      <p style="margin:0">Recordings and transcripts are processed on your device. Nothing is shared with FamilySearch unless you choose to upload it. A full privacy policy will be published before release.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 Amateur Dino. Branchwise is a trademark of Amateur Dino.
+    </footer>
+  </main>
+</body>
+</html>
